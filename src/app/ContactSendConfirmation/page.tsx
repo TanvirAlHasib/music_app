@@ -9,14 +9,14 @@ function page() {
     
   return (
     <div>
-        <div className="flex h-screen flex-col bg-black/[0.96] bg-grid-white/[0.038]">
+        <div className="flex h-full flex-col bg-black/[0.96] bg-grid-white/[0.038]">
             <img
-                src="https://cdn.pixabay.com/photo/2016/11/22/19/15/hand-1850120_640.jpg"
+                src="/courses/drumming.jpg"
                 alt=""
                 className="h-[20rem] w-full object-cover"
             />
 
-            <div className="flex flex-1 items-center justify-center">
+            <div className="flex flex-1 items-center justify-center py-12">
                 <div className="mx-auto max-w-xl px-4 py-8 text-center flex flex-col gap-4">
                 <h1 className="text-2xl font-bold tracking-tight text-gray-300 sm:text-4xl">
                     Message sent successfully
